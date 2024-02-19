@@ -1,0 +1,199 @@
+.nav-div {
+    background-color: rgb(218, 139, 28);
+    height: fit-content;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-text {
+    display: inline;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+.first-img {
+    background: url("../images/img1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-color: aqua;
+    height: 70vh;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 40px;
+    box-shadow: 10px 0px 50px 0px;
+    text-align: center;
+
+
+}
+
+.img-text {
+    text-align: center;
+    margin-top: 1.5rem;
+    /* padding-top: 26rem; */
+    color: rgb(22, 20, 20);
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content {
+    height: fit-content;
+    background-color: rgba(246, 190, 85, 0.793);
+    padding: 10px;
+}
+
+.card1 {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    /* padding: 50px; */
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 0px black;
+}
+
+.card1:hover {
+    background-color: rgb(251, 237, 211);
+    border: 0.5px solid orange;
+}
+
+.chapter_no {
+    display: inline;
+    font-family: "DM Serif Display", serif;
+    font-size: larger;
+    color: rgb(255, 85, 0);
+
+}
+
+.name {
+    margin-top: 20px;
+    font-size: x-large;
+    font-family: "DM Serif Display", serif;
+}
+
+.summary {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.verses_count {
+    display: inline;
+    font-size: large;
+    font-family: "DM Serif Display", serif;
+}
+
+.verses_btn {
+    background-color: rgba(245, 155, 87, 0.69);
+    border: 1px solid;
+}
+
+.second-img {
+    background: url("../images/img4.png");
+    background-position: center;
+    background-size: cover;
+    background-color: aqua;
+    height: 70vh;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+
+}
+
+
+.chaptername {
+    padding-top: 10px;
+    font-size: xx-large;
+    font-family: "DM Serif Display", serif;
+    font-size: 30px;
+    color: rgb(237, 186, 3);
+}
+
+.nametag {
+    font-size: xx-large;
+    font-size: 40px;
+    font-family: "DM Serif Display", serif;
+
+}
+
+.summary-eng {
+    font-family: "Lora", serif;
+    margin-top: 3%;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.summary-hindi {
+    font-family: "Lora", serif;
+    margin-top: 3%;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 30px;
+}
+
+
+.versescountshow {
+    font-family: "DM Serif Display", serif;
+    padding: 10px;
+    letter-spacing: 2px;
+    /* background-color: red; */
+}
+
+.li-item {
+    display: flex;
+    display: inline;
+}
+.dropdown-menu{
+    max-height: 200px; 
+  overflow-y: auto;
+}
+
+.verse-number {
+    padding-top: 20px;
+    font-size: xx-large;
+    font-family: "DM Serif Display", serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+}
+
+.slok {
+    padding-top: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(159, 54, 16);
+    font-family: "DM Serif Display", serif;
+}
+
+.hr {
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 60%;
+}
+
+.slok-trans {
+    font-family: "Lora", serif;
+    margin-top: 3%;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.content2 {
+    padding-bottom: 40px;
+}
