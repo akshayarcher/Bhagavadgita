@@ -16,11 +16,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Bhagawad Gita</title>
     <header>
         <div class="nav-div">
             <h1 class="nav-text">
-                Bhagwat Gita
+                Bhagawat Gita
             </h1>
         </div>
     </header>
@@ -33,20 +33,18 @@
             <br> Anywhere, Anytime
         </h1>
     </div>
-
-
     <div class="content">
-
         <%for (let i of content ){%>
             <form action="/gotoverses" method="post">
-                <div class="card1">
-                    <h6 class="chapter_no">Chapter No <%= i.chapter_number %>
-                        <input type="hidden" name="getchapter" value="<%=i.chapter_number%>">
-                    </h6>
-                    <h4 class="name">
-                        <b>
-                            <%= i.name %>
-                        </b>
+
+                    <div class="card1">
+                        <h6 class="chapter_no">Chapter No <%= i.chapter_number %>
+                            <input type="hidden" name="getchapter" value="<%=i.chapter_number%>">
+                        </h6>
+                        <h4 class="name">
+                            <b>
+                                <%= i.name %>
+                            </b>
                     </h4>
                     <p class="summary">
                         <%= i.summary.en %>
@@ -57,9 +55,7 @@
                     </h6>
                 </div>
             </form>
-            <% }%>
-
+            <%}%>
     </div>
 </body>
-
 </html>

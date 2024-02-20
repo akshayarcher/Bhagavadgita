@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,24 +15,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Bhagawad Gita</title>
     <header>
         <div class="nav-div">
             <h1 class="nav-text">
-                Bhagwat Gita
+                Bhagawad Gita
             </h1>
         </div>
     </header>
 </head>
-
 <body>
     <div class="second-img">
-
         <div class="content1">
-            <h1 class="chaptername">Chapter <%= content1.chapter_number %></h1>
+            <h1 class="chaptername">Chapter<%= content1.chapter_number %></h1>
             <h1 class="nametag"><%= content1.translation %></h1>
             <p class="summary-eng"><%= content1.summary.en %></p>
-
             <p class="summary-hindi"><%= content1.summary.hi %></p>
         </div>
         <div class="content2">
@@ -50,7 +46,7 @@
                 </form>
               </div>
               <div class="verse_data">
-                  <h6 class="verse-number">verse-1</h6>
+                  <h6 class="verse-number">verse-<%= content2.verse %></h6>
                   <p class="slok"><%= content2.slok %></p>
                   <hr class="hr">
                   <p class="slok-trans"><%= content2.tej.ht %></p>
@@ -60,5 +56,4 @@
         </div>
     </div>
 </body>
-
 </html>

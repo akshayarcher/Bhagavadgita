@@ -16,6 +16,7 @@ app.get("/", async (req, res) => {
         console.error("error", error.message);
     }
 })
+
 app.post("/gotoverses", async (req, res) => {
     try {
         const ch = req.body.getchapter;
@@ -28,7 +29,6 @@ app.post("/gotoverses", async (req, res) => {
     } catch (error) {
         console.log("error", error.message);
     }
-
 })
 
 app.post("/gotoverse", async (req, res) => {
@@ -41,7 +41,6 @@ app.post("/gotoverse", async (req, res) => {
     } catch (error) {
         console.error("error", error.message);
     }
-
 })
 
 app.listen(port, () => {
